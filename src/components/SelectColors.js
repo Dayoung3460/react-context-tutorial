@@ -7,6 +7,7 @@ const SelectColors = () => {
   return (
     <div>
       <h2>Choose color</h2>
+      <p>Left click for big box, right click for small box</p>
       <ColorConsumer>
         {({ actions }) => (
           <div style={{ display: 'flex' }}>
